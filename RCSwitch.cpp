@@ -79,7 +79,8 @@ static const RCSwitch::Protocol PROGMEM proto[] = {
   { 380, {  1,  6 }, {  1,  3 }, {  3,  1 }, false },    // protocol 4
   { 500, {  6, 14 }, {  1,  2 }, {  2,  1 }, false },    // protocol 5
   { 450, { 23,  1 }, {  1,  2 }, {  2,  1 }, true },     // protocol 6 (HT6P20B)
-  { 150, { 34,  3 }, {  1,  3 }, {  3,  1 }, false }     // protocol 7 (AC114)
+  { 150, { 34,  3 }, {  1,  3 }, {  3,  1 }, false },    // protocol 7 (AC114)
+  { 360, { 13,  4 }, {  1,  2 }, {  2,  1 }, false }     // protocol 8 (DC250)
 };
 
 enum {
